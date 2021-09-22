@@ -71,3 +71,19 @@ img {
 .clear {
   clear: both;
 }
+
+/* #region media queries */
+@media screen and (max-width:420px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+/* #endregion media queries */
