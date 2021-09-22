@@ -74,7 +74,10 @@ img {
 
 /* #region media queries */
 @media screen and (max-width:420px) {
- 
+  #lezioni{
+    background-color: #F2F2CD;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right,
   #steps .row>.left,
@@ -85,18 +88,43 @@ img {
     margin-bottom: 2rem;
   }
 
-  #why img{
-    height:80px;
+  #why{
+    background-color: #F2F2CD;
   }
+  #why .row>.first,
+  #why .row>.second, 
+  #why .row>.third {
+    margin-top: 20px;
+  }
+  #why img{
+    height:50px;
+  }
+
+
   /* UTILITY */
   .row{
     width:100%;
     margin-top: 0;
   }
+
   /* COMMON */
-  img{
-    height:150px;
+  body{
+    margin: 0;
   }
+  h1{
+    margin:0;
+    padding:1rem 0;
+  }
+  h3{
+    margin:0;
+  }
+  div:not(h1,h2,h3){
+    font-size: .8rem;
+  }
+  img{
+    height:100px;
+  }
+ 
 }
 
 
