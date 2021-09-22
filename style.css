@@ -120,13 +120,12 @@ img {
   h3{
     margin:0;
   }
-  /* div:not(h1,h2,h3){
-    font-size: .8rem;
-  } */
   img{
     height:100px;
   }
- 
+  hr{
+    margin:0;
+  }
 }
 
 
